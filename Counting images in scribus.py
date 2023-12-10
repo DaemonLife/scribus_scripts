@@ -12,4 +12,4 @@ while (page <= pagenum):
             images_content += 1
     page += 1
 
-scribus.messageBox('Book Spine Width', 'Images: ' + str(images_content), BUTTON_OK)
+scribus.messageBox('Counting images', 'Images: ' + str(images_content), BUTTON_OK)
